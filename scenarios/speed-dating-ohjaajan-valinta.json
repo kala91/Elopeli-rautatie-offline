@@ -1,0 +1,269 @@
+{
+  "id": "premade-speeddating-2p",
+  "title": "Speed Dating - Ohjaajan Valinta (2 pelaajaa, 10 kohtausta)",
+  "description": "Reality-sarjan kuvauksissa sattuu moka: päähenkilölle ei ole paria. Ohjaaja astuu kameran eteen pelastaakseen ohjelman.",
+  "isPremade": true,
+  "epilogueText": "Kameroiden punaiset valot sammuvat ja studiohiljaisuus rikkoutuu miksaajan syvään huokaisuun. Speed Dating -sarja sai kaikkien aikojen hämmentävimmän materiaalin, mutta kun mikrofonit riisutaan, Sofia ja Leo katsovat toisiaan täysin ilman linssejä tai muistikirjoja. Oli kyseessä sitten loistava show tai todellinen tunne, ohjaaja ja osallistuja poistuvat paikalta yhdessä käsi kädessä – jättäen tuotantotiimin täydellisen hämmennyksen valtaan.",
+  "judgmentText": "Harvinaislaatuisen pitkä ja kauniisti kehittyvä 10-kohtauksinen kokemus osoitti, kuinka herkkää kemiaa ja upeaa rytmitystä kahden pelaajan välille voi syntyä ilman jatkuvaa ylidraamaa.",
+  "config": {
+    "theme": "Reality-TV Speed Dating",
+    "initialIdea": "Speed dating -sarjan 'Rakkautta Ruudussa' kuvaukset käyntiin. Paria ei löytyy, ja hätääntynyt ohjaaja pelastaa tilanteen tekemällä jotain odottamatonta.",
+    "totalScenes": 10,
+    "players": [
+      {
+        "id": "p1",
+        "name": "Sofia",
+        "role": "Match-hakija",
+        "secret": "Epäilee kaikkea pelkäksi julkisuustempuksi eikä luota kymmenen kohtaamisen aikana ohjaajan motiiveihin, mutta huomaa ihastuvansa tämän haavoittuvuuteen."
+      },
+      {
+        "id": "p2",
+        "name": "Leo",
+        "role": "Ohjaaja",
+        "secret": "Kameroiden takana hänen uransa on katkolla. Hän teeskentelee aluksi itsevarmalta ohjaajalta pelastaakseen budjetin, mutta huomaa unohtavansa koko ohjelman Sofian silmien edessä."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "sceneTitle": "1. Kamerat käyntiin",
+      "narrativeIntroduction": "Kuvaukset alkavat nuhruisessa studiokahvilassa. Sofia istuu valokeilassa. Leo seisoo vielä kameran takana sekuntikello kädessään antaen merkkejä.",
+      "dramaticArcPhase": "Esittely",
+      "playerTasks": [
+        {
+          "characterName": "Sofia",
+          "socialActionCategory": "Toteava",
+          "concreteActionCategory": "Monologi",
+          "targetCharacter": "Kaikki",
+          "instructionPrompt": "Katso suoraan kuvitteelliseen kameraan (tai vähän sen ohi). Pyri lukemaan seuraavat repliikit samalla, kun Leo antaa ohjeita:\n- \"Heei, mä oon Sofia ja oon tullut etsiin siis...\"\n- \"Etsin semmosta rehellistä ja luonnollista kumppania...\"\n\nKorjaile asentoasi ja odota ohjeita.",
+          "gamePurpose": "Sofia luo reality-ohjelman alkujännityksen ja tuo esiin oman kyynisen asenteensa."
+        },
+        {
+          "characterName": "Leo",
+          "socialActionCategory": "Tavoitteleva",
+          "concreteActionCategory": "Fyysinen ele",
+          "targetCharacter": "Sofia",
+          "instructionPrompt": "Seiso kameran takana. Keskeytä ja opasta Sofiaa suuri eleisesti:\n- \"Hymyä sofia hymyä, tämä menee valtakunnan verkkoon!\"\n- \"rennompi asento RENNOMPI ASENTO. ja pää enemmän.. noin.\"\n\nPuhise, ja peitä kasvojasi kädellä. Tarkkaile kelloa.",
+          "gamePurpose": "Leo yrittää pitää yllä tyylipuhdasta ohjaajan roolia stressin keskellä."
+        }
+      ]
+    },
+    {
+      "sceneNumber": 2,
+      "sceneTitle": "2. Suora ohjeistus",
+      "narrativeIntroduction": "Aika kuluu, eikä varattua treffikumppania näy missään. Leo saa korvanappiinsa viestin tuottajalta ja alkaa selvästi panikoida.",
+      "dramaticArcPhase": "Esittely",
+      "playerTasks": [
+        {
+          "characterName": "Sofia",
+          "socialActionCategory": "Kysyvä",
+          "concreteActionCategory": "Dialogi",
+          "targetCharacter": "Leo",
+          "instructionPrompt": "Katso suoraan Leoon lavasteiden taakse. Kysy hieman ironisesti ja haastavasti:\n- \"Onko se täydellinen unelmamies juuttunut sateeseen, vai miksi me täällä odotellaan?\"\n\nRumputa sormillasi hitaasti pöydän pintaa ja virnistä haastavasti.",
+          "gamePurpose": "Sofia nauttii tuotannon pienestä kaaoksesta ja asettaa ohjaajan tiukille."
+        },
+        {
+          "characterName": "Leo",
+          "socialActionCategory": "Toteava",
+          "concreteActionCategory": "Siirtyminen",
+          "targetCharacter": "Sofia",
+          "instructionPrompt": "Astu ripeästi varjoista suoraan valokeilaan Sofian viereen. Korjaa hienovaraisesti hänen kuvitteellista mikrofoniaan ja totea kuiskaten:\n- \"Kuvausryhmä odottaa meiltä nyt dynaamista asennetta. Hoidetaan tämä.\"\n\nPyyhi hienosuodatus otsaltasi ja katso hätääntyneenä ympärillesi.",
+          "gamePurpose": "Leo pyrkii hallitsemaan tilannetta fyysisellä läsnäololla ennen kuin tekee kovan päätöksen."
+        }
+      ]
+    },
+    {
+      "sceneNumber": 3,
+      "sceneTitle": "3. Hätäinen loikkaus",
+      "narrativeIntroduction": "Leo repii korvanappinsa korvastaan, vetää syvään henkeä ja istuu vastakkaiselle tuolille, johon deitin oli määrä tulla.",
+      "dramaticArcPhase": "Esittely",
+      "playerTasks": [
+        {
+          "characterName": "Sofia",
+          "socialActionCategory": "Selvittävä",
+          "concreteActionCategory": "Fyysinen ele",
+          "targetCharacter": "Leo",
+          "instructionPrompt": "Tuijota Leoa herkeämättä. Kysy suoraan kuvitteellisten kameroiden käydessä:\n- \"Aiotko sinä, herra ohjaaja, muka olla minun treffikumppanini?\"\n\nNosta kulmakarvaasi ja hymähdä epäuskoisesti.",
+          "gamePurpose": "Sofia haluaa haastaa Leon täysin epäuskottavasta reality-ratkaisusta."
+        },
+        {
+          "characterName": "Leo",
+          "socialActionCategory": "Tavoitteleva",
+          "concreteActionCategory": "Dialogi",
+          "targetCharacter": "Sofia",
+          "instructionPrompt": "Astu rohkeasti valokeilaan ja istu vastapäätä Sofiaa:\n- \"Miksi ei? Minähän tiedän tarkalleen mitä loistavat treffit vaativat. Aloitetaan.\"\n\nLyö kätesi yhteen aloitusklaffin merkiksi.",
+          "gamePurpose": "Leo yrittää näytellä unelmatreffikumppania pelastaakseen show'n, vaikka sisällä kiehuu."
+        }
+      ]
+    },
+    {
+      "sceneNumber": 4,
+      "sceneTitle": "4. Ensimmäinen deittikysymys",
+      "narrativeIntroduction": "Aito keskustelu alkaa. Katon ripustettu mikrofoni poimii jokaisen henkäyksen. Ilma on sähköinen mutta oudon absurdi.",
+      "dramaticArcPhase": "Esittely",
+      "playerTasks": [
+        {
+          "characterName": "Sofia",
+          "socialActionCategory": "Tavoitteleva",
+          "concreteActionCategory": "Dialogi",
+          "targetCharacter": "Leo",
+          "instructionPrompt": "Kysy kaavamaisia treffikysymyksiä hymyillen mutta haastavasti:\n- \"Mikä on intohimosi elämässä?\"\n- \"Miksi naiset yleensä jättävät sinut?\"\n\nSiemaile kuvitteellista lasiasi rauhallisesti kysymyksen jälkeen.",
+          "gamePurpose": "Sofia testaa, osaako ohjaaja vastata omiin naurettaviin käsikirjoituksiinsa."
+        },
+        {
+          "characterName": "Leo",
+          "socialActionCategory": "Toteava",
+          "concreteActionCategory": "Monologi",
+          "targetCharacter": "Kaikki",
+          "instructionPrompt": "Vastaa Sofian kysymyksiin hieman liiankin rehellisesti:\n- \"Intohimoni on tarkkailla muiden ihmisten tarinoita herkeämättä varjoista.\"\n- \"...ehkä koska oma elämäni on liian sekaisin.\"\n\nNaurahda vaisusti itsellesi.",
+          "gamePurpose": "Leo alkaa lipsunutta käsikirjoitetusta 'hurmuri'-roolistaan aitoon haavoittuvuuteen."
+        }
+      ]
+    },
+    {
+      "sceneNumber": 5,
+      "sceneTitle": "5. Käsikirjoituksen hylkäys",
+      "narrativeIntroduction": "Yhtäkkiä takahuoneesta kuuluu kova kolautus, mutta kamerat käyvät yhä. Kumpikaan ei käänny katsomaan sitä. Syntyy pitkä, piinaava ja kiusallinen hiljaisuus – Leo on ihastunut eikä keksi sanottavaa, Sofia odottaa ohjausta.",
+      "dramaticArcPhase": "Esittely",
+      "playerTasks": [
+        {
+          "characterName": "Sofia",
+          "socialActionCategory": "Toteava",
+          "concreteActionCategory": "Monologi",
+          "targetCharacter": "Kaikki",
+          "instructionPrompt": "Puhu hiljaa ja huomaamattomasti itsellesi. Tsemppaa itseäsi muistuttamalla, että tämä on vain reality-sarja:\n- \"Muista, Sofia. Tämä on pelkkää viihdettä.\"\n- \"Pysy tyynenä. Tämä menee pian ohi.\"\n\nPuhalla ilmaa ulos keuhkoistasi ja tuijota Leoa herkeämättä.",
+          "gamePurpose": "Sofia tsemppaa itseään muistuttamalla että tämä on vain realitysarja raivaten paniikkia pois."
+        },
+        {
+          "characterName": "Leo",
+          "socialActionCategory": "Toteava",
+          "concreteActionCategory": "Matkiminen",
+          "targetCharacter": "Sofia",
+          "instructionPrompt": "Matki täysin Sofian kehonasentoa ja hengitystä pöydässä. Olet täysin herpaantunut ja sanaton hänen edessään:\n- \"(Pysy hiljaa, älä sano sanaakaan.)\"\n\nTarkkaile Sofiaa herkeämättä hämmentyneenä ja kiihtyneenä.",
+          "gamePurpose": "Leo on täysin lumoutunut ja sanaton, matkien kumppaninsa eleitä ja painottaen kiusallista hiljaisuutta."
+        }
+      ]
+    },
+    {
+      "sceneNumber": 6,
+      "sceneTitle": "6. Palavin sydämin",
+      "narrativeIntroduction": "Studion taustavalo himmenee herkemmäksi siniseksi automaattisesti ohjelman puolesta. Sekä Leo että Sofia ovat uppoutuneet täysin erillisiin asioihin, kumpikin omaan hämmentävään monologiinsa samanaikaisesti huomaamatta toistaan.",
+      "dramaticArcPhase": "Käännekohta/Kliimaksi",
+      "playerTasks": [
+        {
+          "characterName": "Sofia",
+          "socialActionCategory": "Toteava",
+          "concreteActionCategory": "Monologi",
+          "targetCharacter": "Kaikki",
+          "instructionPrompt": "Puhu huomaamattomasti itsellesi tsemppausta ja muistuta raameista ääneen katsomatta suoraan Leoon:\n- \"Suojamuurit ovat helpompia kuin pettymykset.\"\n- \"Mutta tämä on ensimmäinen kerta, kun joku katsoo minua tässä studiossa ilman valmiita suuntaviivoja...\"\n\nHuokaise syvään ja laske katseesi pöytään.",
+          "gamePurpose": "Sofia avautuu ja paljastaa oman haavoittuvuutensa – deitti etenee herkkään vaiheeseen."
+        },
+        {
+          "characterName": "Leo",
+          "socialActionCategory": "Toteava",
+          "concreteActionCategory": "Monologi",
+          "targetCharacter": "Kaikki",
+          "instructionPrompt": "Leveä hämmennys valtaa kasvosi. Kuulet toisesta korvanapistasi tuottajan vaativan ääntä. Puhu monologi katsojille tai suoraan ilmaan huutaen korvanapille:\n- \"Kyllä tiedän, 'mitään ei tapahdu', mutta katsokaa häntä...\"\n- \"Minulla ei ole mitään sanottavaa, koska kaikki mitä kirjoitin, tuntuu täysin feikiltä...\"\n- \"Nyt riittää.\"\n\nOta toinenkin korvanappi pois korvastasi ja heitä se sivuun.",
+          "gamePurpose": "Leo ottaa valtavan riskin, tekee dynaamisen monologin varassa tilityksen takahuoneen kuiskuttajille ja riisuu taustakoneiston."
+        }
+      ]
+    },
+    {
+      "sceneNumber": 7,
+      "sceneTitle": "7. Hiljaisuuden kuiskaus",
+      "narrativeIntroduction": "Kaikki taustamelu tuntuu katoavan. Studiomanageri viittoo hermostuneesti varjoissa, mutta parivaljakko ei välitä.",
+      "dramaticArcPhase": "Käännekohta/Kliimaksi",
+      "playerTasks": [
+        {
+          "characterName": "Sofia",
+          "socialActionCategory": "Tavoitteleva",
+          "concreteActionCategory": "Fyysinen ele",
+          "targetCharacter": "Leo",
+          "instructionPrompt": "Kurkota kätesi pöydän yli ja kosketa lyhyesti Leon kättä tai pöytäpintaa hänen lähellään. Sano hyvin hiljaa:\n- \"Älä katso enää monitoriin tai taaksesi. Katso minua.\"\n\nPidä kätesi paikallaan ja odota rauhassa.",
+          "gamePurpose": "Sofia vahvistaa sähköisen fyysisen yhteyden ja katkaisee Leon tarpeen kontrolloida ympäristöä."
+        },
+        {
+          "characterName": "Leo",
+          "socialActionCategory": "Toteava",
+          "concreteActionCategory": "Matkiminen",
+          "targetCharacter": "Sofia",
+          "instructionPrompt": "Ota täsmälleen sama kädenasento ja rauhallinen hengitystahti kuin Sofialla. Totea matalla äänellä:\n- \"Täällä on kymmeniä ihmisiä ympärillä, mutta tuntuu kuin olisimme täysin kahdestaan.\"\n\nNojaa eteenpäin ja katso häntä silmiin.",
+          "gamePurpose": "Leo laskee ammatillisen kontrollinsa ja heittäytyy matkimisen ja aistinvaraisen läsnäolon tasolle."
+        }
+      ]
+    },
+    {
+      "sceneNumber": 8,
+      "sceneTitle": "8. Korvanapin huuto",
+      "narrativeIntroduction": "Leon korvakuulokkeesta kuuluu vaimeaa huutoa studiopäälliköltä: 'Leo mitä sä teet! Tämä on suora lähetys!'",
+      "dramaticArcPhase": "Ratkaisu",
+      "playerTasks": [
+        {
+          "characterName": "Sofia",
+          "socialActionCategory": "Kysyvä",
+          "concreteActionCategory": "Siirtyminen",
+          "targetCharacter": "Leo",
+          "instructionPrompt": "Nouse hitaasti seisomaan tuoliltasi, astu askel taaksepäin ja kysy epäilevän vakavasti:\n- \"Mitä ne sinulle sanovat korvaan? Onko tämä sittenkin vain hieno roolisuoritus katselulukuja varten?\"\n\nAseta kätesi rinnallesi suojaksi ja odota.",
+          "gamePurpose": "Sofia säikähtää mahdollista huijausta ja vetäytyy takaisin puolustusasemiin."
+        },
+        {
+          "characterName": "Leo",
+          "socialActionCategory": "Tavoitteleva",
+          "concreteActionCategory": "Esineen kanssa toimiminen",
+          "targetCharacter": "Sofia",
+          "instructionPrompt": "Nouse myös ylös. Ota kuvitteellinen korvanappi päästäsi ja viskaa se raskaasti pöydälle. Sano painokkaasti ja kovaäänisesti:\n- \"Se oli tuottaja. Ja minä juuri irtisanouduin tästä p**kasta. Uskotko nyt?\"\n\nLevitä kätesi sivuille osoittaaksesi rehellisyytesi.",
+          "gamePurpose": "Leo suorittaa upean fyysisen irtioton reality-rakenteista vahvistaakseen vilpittömyytensä."
+        }
+      ]
+    },
+    {
+      "sceneNumber": 9,
+      "sceneTitle": "9. Uskalluksen hetki",
+      "narrativeIntroduction": "Studiohenkilökunta tajuaa, että tapahtumasta tulee eeppistä tv-materiaalia, ja vetäytyy taustalle. Valot kirkastuvat neutraaleiksi.",
+      "dramaticArcPhase": "Ratkaisu",
+      "playerTasks": [
+        {
+          "characterName": "Sofia",
+          "socialActionCategory": "Toteava",
+          "concreteActionCategory": "Dialogi",
+          "targetCharacter": "Leo",
+          "instructionPrompt": "Astu hitaasti takaisin pöydän viereen Leoa kohti. Sano lempeästi hymyillen:\n- \"Sinä olet täysin hullu, Leo. Mutta ehkä se on juuri sitä, mitä tulin täältä etsimään.\"\n\nNojaa kevyesti pöydän reunaan ja katso häntä ihaillen.",
+          "gamePurpose": "Sofia hyväksyy Leon riskinoton ja antaa itselleen luvan uskoa toiseen ihmiseen."
+        },
+        {
+          "characterName": "Leo",
+          "socialActionCategory": "Selvittävä",
+          "concreteActionCategory": "Dialogi",
+          "targetCharacter": "Sofia",
+          "instructionPrompt": "Ota Sofiaa hitaasti ja lempeästi kuvitteellisesti kädestä. Kysy hymyillen:\n- \"Lähdetäänkö täältä pois ennen kuin he ehtivät editoida tästä jotain typerää?\"\n\nKatso ympärillesi studiossa ilkikurisesti.",
+          "gamePurpose": "Leo ehdottaa lopullista pakoa tuotannon rajoista dynaamisena ratkaisuna."
+        }
+      ]
+    },
+    {
+      "sceneNumber": 10,
+      "sceneTitle": "10. Viimeinen otto",
+      "narrativeIntroduction": "Kaksikko poistuu studiovalojen loisteesta jättäen kupit ja mikrofonit pöydälle. Kamerat sammuvat. Esitys on päättynyt.",
+      "dramaticArcPhase": "Ratkaisu",
+      "playerTasks": [
+        {
+          "characterName": "Sofia",
+          "socialActionCategory": "Toteava",
+          "concreteActionCategory": "Monologi",
+          "targetCharacter": "Kaikki",
+          "instructionPrompt": "Astu kokonaan sivuun tyhjältä pelialueelta valokeilan ulkopuolelle. Sano viimeisenä kommenttina suoraan katsojille:\n- \"Rakkautta ei ehkä löydy ruudun takaa... mutta joskus sen löytää sieltä, mistä vähiten odottaa.\"\n\nHymyile lämpimästi ja kävele sivuun.",
+          "gamePurpose": "Sofia lausuu oman tyylipuhtaan ja kauniin loppu-epilogiheittonsa tarinalle."
+        },
+        {
+          "characterName": "Leo",
+          "socialActionCategory": "Toteava",
+          "concreteActionCategory": "Siirtyminen",
+          "targetCharacter": "Kaikki",
+          "instructionPrompt": "Kävele eteenpäin, käänny katsomaan tyhjää studiota viimeisen kerran ja sano ohjaajana:\n- \"Tämä oli paras ohjaustyöni koskaan. Se oli siinä – purkissa!\"\n\nNyökkää päättäväisesti ja kävele Sofian perään.",
+          "gamePurpose": "Leo saattaa ohjaajan identiteettinsä päätökseen upealla, vapauttavalla loppukommentilla."
+        }
+      ]
+    }
+  ]
+}
